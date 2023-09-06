@@ -1,5 +1,5 @@
 {
-  "name": "osc-notify",
+  "name": "tabby-osc-notify",
   "version": "1.0.0",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://tildegit.org/jomarm/osc-notify",
+  "repository": "https://tildegit.org/jomarm/tabby-osc-notify",
   "author": "jomarm",
   "license": "MIT",
   "private": false,
