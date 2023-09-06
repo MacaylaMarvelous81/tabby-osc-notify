@@ -1,0 +1,36 @@
+{
+  "name": "osc-notify",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": "https://tildegit.org/jomarm/osc-notify",
+  "author": "jomarm",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "tabby-plugin"
+  ],
+  "devDependencies": {
+    "apply-loader": "^2.0.0",
+    "css-loader": "^6.8.1",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@angular/core": "^16.2.3",
+    "rxjs": "^7.8.1",
+    "tabby-terminal": "^1.0.197-nightly.1"
+  }
+}
